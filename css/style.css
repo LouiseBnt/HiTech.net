@@ -1,3 +1,114 @@
-
+/*version mobile*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+body {
+  margin: auto;
+  max-width: 1140px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem; }
+  body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    body header .header-accessibility {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #e2f7ff;
+      width: 100%;
+      padding-bottom: 20px; }
+    body header .theme-accessibility {
+      text-decoration: none;
+      color: #0c6588;
+      background: #e2f7ff;
+      font-weight: bold; }
+    body header .header-account {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-image: url("../images/header.jpg"); }
+      body header .header-account .logo {
+        width: 8%;
+        padding-top: 15px;
+        padding-bottom: 10px; }
+      body header .header-account h1,
+      body header .header-account .text-header {
+        color: white; }
+    body header .lien-icons {
+      width: 60%;
+      display: flex;
+      justify-content: space-around;
+      text-align: center; }
+      body header .lien-icons .icon-user,
+      body header .lien-icons .icon-cart,
+      body header .lien-icons .user,
+      body header .lien-icons .cart {
+        color: white;
+        text-decoration: none; }
+        body header .lien-icons .icon-user .lien-account,
+        body header .lien-icons .icon-cart .lien-account,
+        body header .lien-icons .user .lien-account,
+        body header .lien-icons .cart .lien-account {
+          padding-right: 30px; }
+        body header .lien-icons .icon-user .lien-car,
+        body header .lien-icons .icon-cart .lien-car,
+        body header .lien-icons .user .lien-car,
+        body header .lien-icons .cart .lien-car {
+          padding-left: 50px; }
+    body header .header-option {
+      width: 100%;
+      text-align: center;
+      line-height: 3.6rem;
+      background: #e2f7ff;
+      text-decoration: none;
+      color: #0c6588;
+      padding: 30px 0; }
+      body header .header-option .header-icone {
+        color: #0c6588;
+        font-weight: bold; }
+  body main h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-top: 50px; }
+  body main .main-liens-container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    color: #0c6588;
+    padding-top: 20px;
+    padding-bottom: 60px; }
+    body main .main-liens-container .main-liens {
+      color: #0c6588;
+      font-weight: bold;
+      text-decoration: underline; }
+  body main h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    font-weight: bold; }
+  body main .main-etiquette-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px auto 30px auto; }
+  body main .main-etiquette {
+    background-color: #dbe2ea;
+    border-radius: 10px;
+    margin: 8px; }
+  body main .main-full-screen {
+    width: 100%;
+    height: auto;
+    padding: 0 15px 0 15px; }
+  body main .main-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
 
 /*# sourceMappingURL=style.css.map */

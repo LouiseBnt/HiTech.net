@@ -4,59 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" href="normalize.css" type="text/css" />
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="header-accessibility">
             <p>Options d'affichage / accessibilité</p>
             <div>
                 <span>Thème:</span>
-                <a href="#">sombre</a>
-                <a href="#">contrasté</a>
-                <a href="#">clair</a>
+                <a class="theme-accessibility" href="#">sombre</a>
+                <a class="theme-accessibility" href="#">contrasté</a>
+                <a class="theme-accessibility" href="#">clair</a>
             </div>
             <div>
                 <span>interligne:</span>
-                <a href="#">simple</a>
-                <a href="#">augmenté</a>
+                <a class="theme-accessibility" href="#">simple</a>
+                <a class="theme-accessibility" href="#">augmenté</a>
             </div>
         </div>
 
-        <div>
-            <img src="images/logo.svg" alt="icone" />
+        <div class="header-account">
+            <img class="logo" src="images/logo.svg" alt="logo" />
             <h1>HiTech.NET</h1>
-            <p>Tout le matériel High-Tech</p>
-            <div>
-                <a href="#">
+            <p class="text-header">Tout le matériel High-Tech</p>
+            <div class="lien-icons">
+                <div class="lien-account">
+                    <a class="user" href="#">
+                    <i class="icon-user"></i>
                     <p>Mon compte</p>
                 </a>
-            </div>
-            <div>
-                <a href="#">
+                </div>
+                <div class="lien-cart">
+                    <a class="cart" href="#">
+                    <i class="icon-cart"></i>
                     <p>Mon panier</p>
                 </a>
+                </div>
             </div>
         </div>
 
-        <div>
+        <div class="header-option">
             <div>
-                <a href="#"><span>Ordinateurs</span></a>
+                <a class="header-icone" href="#">
+                    <i class="icon-display"></i>
+                    <span>Ordinateurs</span></a>
             </div>
             <div>
-                <a href="#"><span>Péripheriques & composants</span></a>
+                <a class="header-icone" href="#">
+                    <i class="icon-data"></i>
+                    <span>Péripheriques & composants</span></a>
             </div>
             <div>
-                <a href="#"><span>Téléphones</span></a>
+                <a class="header-icone" href="#">
+                    <i class="icon-phone"></i>
+                    <span>Téléphones</span></a>
             </div>
             <div>
-                <a href="#"><span>Objets connectés</span></a>
+                <a class="header-icone" href="#">
+                    <i class="icon-clock"></i>
+                    <span>Objets connectés</span></a>
             </div>
         </div>
     </header>
@@ -64,34 +77,38 @@
 
         <h2>AOC 24 B1XHS</h2>
 
-        <a href="#">Présentation</a>
-        <a href="#">Descriptif</a>
-        <a href="#">Caractéristiques techniques</a>
-
-        <h3>>Présentation</h3>
-
-        <div>
-            <span>1920x1080 pixels</span>
-            <span>7ms</span>
-            <span>Format large 16/9</span><br>
-            <span>Dalle IPS</span>
-            <span>HDMI</span>
-            <span>VGA</span>
-            <span>Noir</span>
+        <div class="main-liens-container">
+            <a class="main-liens" href="#">Présentation</a>
+            <a class="main-liens" href="#">Descriptif</a>
+            <a class="main-liens" href="#">Caractéristiques techniques</a>
         </div>
 
-        <img src="images/slide-1-md.jpg" alt="television" />
+        <h3>Présentation</h3>
 
-        <p>Photos non contractuelles</p>
-
-        <div>
-            <img src="images/slide-1-lg.jpg" alt="television" />
-            <img src="images/slide-2-lg.jpg" alt="television" />
-            <img src="images/slide-3-lg.jpg" alt="television" />
-            <img src="images/slide-4-lg.jpg" alt="television" />
-            <img src="images/slide-5-lg.jpg" alt="television" />
+        <div class="main-etiquette-container">
+            <span class="main-etiquette">1920x1080 pixels</span>
+            <span class="main-etiquette">7ms</span>
+            <span class="main-etiquette">Format large 16/9</span>
+            <span class="main-etiquette">Dalle IPS</span>
+            <span class="main-etiquette">HDMI</span>
+            <span class="main-etiquette">VGA</span>
+            <span class="main-etiquette">Noir</span>
         </div>
+        <!--<div class="main-screen-container">-->
+        <!--    <div class="main-full-screen">-->
+        <!--        <img src="images/slide-1-md.jpg" alt="television" />-->
+        <!--    </div>-->
 
+        <!--    <p class="main-subtile">Photos non contractuelles</p>-->
+
+        <!--    <div>-->
+        <!--        <img src="images/slide-1-lg.jpg" alt="screen-face" />-->
+        <!--        <img src="images/slide-2-lg.jpg" alt="screen-right" />-->
+        <!--        <img src="images/slide-3-lg.jpg" alt="screen-left" />-->
+        <!--        <img src="images/slide-4-lg.jpg" alt="screen-back" />-->
+        <!--        <img src="images/slide-5-lg.jpg" alt="scree-face-back-left" />-->
+        <!--    </div>-->
+        <!--</div>-->
     </main>
 </body>
 
